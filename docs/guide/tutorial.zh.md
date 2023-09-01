@@ -240,7 +240,10 @@ start();
        output: {
          library: `${name}-[name]`,
          libraryTarget: 'umd', // 把微应用打包成 umd 库格式
+         // webpack5 已经删除jsonpFunction，这是webpack5 以下用的
          jsonpFunction: `webpackJsonp_${name}`,
+         // webpack5 上
+         chunkLoadingGlobal: `webpackJsonp_${name}`,
        },
      },
    };
