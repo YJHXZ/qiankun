@@ -1,10 +1,18 @@
 # @qiankunjs/shared
 
+## 0.0.1-alpha.5
+
+### Patch Changes
+
+- 065d2c54: 🐛fix the async mode detect bug
+- 931dc1f7: 🎨 optimize code
+  - @qiankunjs/sandbox@0.0.1-alpha.5
+
 ## 0.0.1-alpha.4
 
 ### Patch Changes
 
-- 62d3b482: 🏷️ fix typings temporary 
+- 62d3b482: 🏷️ fix typings temporary
 - ⚡️ support preload with dependencies reusing
   - @qiankunjs/sandbox@0.0.1-alpha.4
 
